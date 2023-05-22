@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400&family=Mulish:wght@200;400;700&family=Playfair+Display:wght@400;500;600;700;800&family=Sen:wght@400;700;800&display=swap");
+* {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     font-style: normal;
+     font-family: "Hind Guntur";
+     font-weight: 700;
+     box-sizing: border-box;
+}
+button {
+     width: 235px;
+     background: #7ad339;
+     box-shadow: 3px 6px 12px rgba(122, 211, 57, 0.25);
+     border-radius: 25px;
+     text-align: center;
+     padding: 25px 0;
+     margin-bottom: 149px;
+}
+button > a {
+     font-family: "Inter";
+     font-size: 20px;
+     line-height: 24px;
+     color: #171c16;
+}
+.flex {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.container {
+     width: 80%;
+     margin: 0 auto;
+}
+h1 {
+     font-size: 40px;
+     line-height: 76px;
+     color: white;
+}
+h2 {
+     font-size: 40px;
+     line-height: 76px;
+     color: #373737;
+     text-align: center;
+     margin: 106px 0 68px 0;
+}
+p {
+     font-size: 32px;
+     line-height: 60px;
+     text-align: center;
+     color: #373737;
+}
+/* HEADER START  */
+.header {
+     width: 100%;
+     padding-top: 10px;
+     border-bottom: 1px solid white;
+}
+.header a,
+h5 {
+     font-size: 16px;
+     line-height: 30px;
+     color: #ffffff;
+     margin-right: 30px;
+}
+.header-main {
+     background-image: url(images/bg.png);
+     background-size: cover;
+}
+a.active {
+     color: #7ad339;
+     text-decoration: underline;
+}
+.dropdown,
+.register {
+     position: relative;
+     display: inline-block;
+}
+.dropdown-content {
+     width: 136px;
+     height: 90px;
+     background: #f0f0f0;
+     border-radius: 10px;
+}
+.dropdown-content,
+.dropdown-profile {
+     display: none;
+     position: absolute;
+     z-index: 1;
+}
+
+.dropdown-content a {
+     font-size: 16px;
+     line-height: 30px;
+     color: #4a5825;
+     display: block;
+}
+.dropdown-content a:hover {
+     background-color: #ddd;
+}
+.dropdown:hover .dropdown-content,
+.register:hover .dropdown-profile {
+     display: block;
+     padding: 15px 0 0 15px;
+}
+.dropdown h5:hover {
+     color: #4a5825;
+}
+.register {
+     margin-left: 25px;
+}
+.dropdown-profile {
+     width: 256px;
+     height: 441px;
+     background: #ffffff;
+     border-right: 2px solid rgba(0, 0, 0, 0.1);
+     border-radius: 12px;
+     right: 10%;
+}
+.dropdown-profile a {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+     letter-spacing: -0.02em;
+     color: #757575;
+     margin-left: 15px;
+}
+.register p {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 25px;
+     color: #000000;
+}
+.register h4 {
+     font-weight: 500;
+     font-size: 11px;
+     line-height: 25px;
+     letter-spacing: 0.4px;
+     text-transform: uppercase;
+     color: #757575;
+}
+.register-box {
+     height: 80%;
+}
+.box-info {
+     height: 60%;
+}
+.box-info,
+.box-bottom,
+.name {
+     margin: 15px auto;
+     display: flex;
+     flex-direction: column;
+     align-items: baseline;
+}
+.box-info,
+.box-bottom,
+.profile-name {
+     width: 80%;
+     margin: 10px auto;
+}
+
+.box-info,
+.box-bottom {
+     border-top: 1px solid rgba(0, 0, 0, 0.1);
+     padding-top: 15px;
+     justify-content: space-between;
+}
+.box-bottom {
+     height: 25%;
+}
+/* MAIN START  */
+.main {
+     width: 100%;
+}
+.main .container {
+     text-align: center;
+     width: 40%;
+     text-align: right;
+     margin-right: 7%;
+}
+.main .container h1 {
+     margin: 170px 0;
+}
+
+/* ABOUT START  */
+.about {
+     position: relative;
+}
+.about > img {
+     position: absolute;
+}
+.box {
+     width: 25%;
+     border: 3px solid #373737;
+     border-radius: 25px;
+     height: 382px;
+     padding: 71px 32px;
+}
+.about img.left {
+     top: -35%;
+}
+.about img.right {
+     right: 0;
+}
+/* FACTS START  */
+.facts {
+     width: 100%;
+}
+.grid-container {
+     display: grid;
+     grid-template-areas:
+          "item1 item2 item3 item3"
+          "item1 item4 item5 item6";
+     margin: 0 auto;
+     gap: 2%;
+     width: 80%;
+}
+.item1 {
+     grid-area: item1;
+}
+.item2 {
+     grid-area: item2;
+     background: #326781;
+}
+.item3 {
+     grid-area: item3;
+}
+.item4 {
+     grid-area: item4;
+     background: #b32c1a;
+}
+.item5 {
+     grid-area: item5;
+}
+.item6 {
+     grid-area: item6;
+     background: #ff6947;
+}
+.item {
+     border-radius: 25px;
+}
+.grid-container p {
+     font-size: 24px;
+     line-height: 45px;
+     text-align: center;
+     color: #ffffff;
+}
+.grid-container h3 {
+     font-size: 96px;
+     line-height: 100px;
+     text-align: center;
+     color: #ffffff;
+}
+.grid-container img {
+     width: 100%;
+     height: 100%;
+}
+.inner {
+     width: 80%;
+     margin: auto;
+     padding-top: 10%;
+}
+
+/* LEARN SECTION START  */
+.learn {
+     margin-bottom: 82px;
+}
+.learnbox {
+     padding: 71px 32px;
+     width: 25%;
+     border: 3px solid #373737;
+     border-radius: 25px;
+}
+footer {
+     text-align: right;
+     background: #1d2511;
+     padding: 50px 0 53px 0;
+}
+footer > a {
+     margin-right: 10%;
+     font-size: 16px;
+     line-height: 30px;
+     color: #ffffff;
+}
+footer > .container {
+     text-align: center;
+}
+li {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 27px;
+     color: #ffffff;
+     margin-left: 18%;
+}
+h6 {
+     font-family: "Maven Pro";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 28px;
+     color: #7ad339;
+}
+li.phone {
+     list-style-image: url(images/Слой\ 1.png);
+}
+li.email {
+     list-style-image: url(images/Слой3.png);
+}
+li.location {
+     list-style-image: url(images/Слой2.png);
+}
+
+ul {
+     text-align: left;
+     margin: 20px 0 16px 0;
+}
+.web a {
+     margin-left: 25px;
+}
+footer > p {
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 32px;
+     color: #ffffff;
+}
+footer > .container > button {
+     width: 514px;
+}
+footer > .container > a > .button {
+     width: 514px;
+    padding: 30px 0;
+     background: linear-gradient(180deg, #7ad339 0%, #6fc82e 45.83%, #58a023 100%);
+     box-shadow: 3px 6px 12px rgba(122, 211, 57, 0.25);
+     border-radius: 25px;
+     font-family: "Inter";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29px;
+     color: #ffffff;
+     margin: 0 auto 100px;
+}

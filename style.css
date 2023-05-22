@@ -29,7 +29,7 @@ button > a {
      justify-content: space-between;
 }
 .container {
-     width: 80%;
+     width: 86%;
      margin: 0 auto;
 }
 h1 {
@@ -58,7 +58,7 @@ p {
 }
 .header a,
 h5 {
-     font-size: 16px;
+     font-size: 20px;
      line-height: 30px;
      color: #ffffff;
      margin-right: 30px;

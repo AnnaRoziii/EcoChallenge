@@ -9,53 +9,67 @@
 #wrapper {
      width: 80%;
      margin: 50px auto;
-     text-align: center;
      padding: 5%;
      box-shadow: 5px 5px 20px darkgreen;
 }
-.content {
-     display: flex;
-     justify-content: space-between;
-     margin-bottom: 5%;
-}
-.circle {
-     padding: 10px 0px 40px;
-     width: 350px;
-     height: 477px;
-     border: 0.5px solid #7e976c;
-     border-radius: 100px;
-}
-.grey {
-     width: 100%;
-     height: 77%;
-}
-.psolving {
-     background-image: url(images/Problem\ solving-bro\ 1.png);
-}
-.tsolving {
-     background-image: url(images/test\ solving.png);
-}
-.sharing {
-     background-image: url(images/Sharing\ articles-pana\ 1.png);
-}
 h1 {
      font-size: 64px;
-     line-height: 121px;
-     margin-top: 25px;
-     margin-bottom: 30px;
+     line-height: 160px;
+     margin-top: 30px;
+     text-align: center;
 }
-a {
+h3 {
+     font-weight: 600;
+     font-size: 32px;
+     line-height: 100px;
+     color: #000000;
+}
+h4 {
+font-weight: 600;
+font-size: 40.0301px;
+line-height: 33px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+
+}
+p {
      font-size: 24px;
      line-height: 150px;
      letter-spacing: -0.02em;
      color: #000000;
      font-weight: 600;
 }
-.yza {
+a {
      font-weight: 600;
      font-size: 20px;
      line-height: 20px;
      letter-spacing: -0.02em;
      color: #000000;
-     margin-right: 90%;
+}
+.box {
+     display: flex;
+     width: 98%;
+     justify-content: space-between;
+     align-items: center;
+     height: 201px;
+     box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.25);
+     border-radius: 25px;
+     margin-bottom: 50px;
+     text-align: left;
+}
+
+.bal {
+     background: #92e3a9;
+     border-radius: 0px 25px 25px 0px;
+     height: 100%;
+     width: 15%;
+     padding: 6.5% 0;
+     padding-left: 3%;
+   
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }

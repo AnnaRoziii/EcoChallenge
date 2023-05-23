@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400&family=Mulish:wght@200;400;700&family=Playfair+Display:wght@400;500;600;700;800&family=Sen:wght@400;700;800&display=swap");
+* {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+     font-style: normal;
+}
+#wrapper {
+     width: 70%;
+     margin: 50px auto;
+     padding: 2%;
+     box-shadow: 5px 5px 20px darkgreen;
+}
+h1 {
+     font-size: 64px;
+     line-height: 160px;
+     text-align: center;
+     margin-bottom: 50px;
+}
+h2 {
+     font-weight: 700;
+     font-size: 31.3612px;
+     line-height: 59px;
+     color: #363636;
+     margin-left: 50px;
+     margin-bottom: 50px;
+}
+h3 {
+     font-weight: 700;
+     font-size: 15.6806px;
+     line-height: 30px;
+     color: #363636;
+     margin: 50px;
+}
+a {
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 20px;
+     letter-spacing: -0.02em;
+     color: #000000;
+     margin-left: 5%;
+}
+p {
+     font-weight: 400;
+     font-size: 15.6806px;
+     line-height: 30px;
+     color: #363636;
+     margin-top: 30px;
+     margin-left: 12px;
+}
+.flex {
+     display: flex;
+
+     width: 50%;
+     /* margin: 0 auto; */
+}
+.inner {
+     margin-left: 50px;
+}
+.top {
+     margin-bottom: 50px;
+}
+.container {
+     width: 55%;
+     margin: 0 auto;
+}
+.lq {
+     justify-content: space-between;
+     width: 95%;
+     align-items: center;
+     margin-top: 50px;
+}
+.link {
+     width: 90%;
+     height: 50.91px;
+     background: rgba(0, 0, 0, 0.05);
+     border-radius: 10.4537px;
+     padding-top: 15px;
+     padding-left: 15px;
+}
+.linkp {
+     width: 80%;
+     margin: 50px 0 50px 40px;
+}
+.button {
+     width: 75px;
+     height: 50.91px;
+     padding: 10px;
+     background: #6dc42d;
+     border-radius: 10.4537px;
+}
